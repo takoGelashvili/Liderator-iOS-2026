@@ -5,6 +5,8 @@
 //  Created by Tamar Gelashvili on 10/06/2026.
 //
 
+import SwiftUI
+
 struct RGB {
     @Clamping(in: 0...0.5) var red: Double = .zero
     @Clamping(in: 0...1) var green: Double = .zero
