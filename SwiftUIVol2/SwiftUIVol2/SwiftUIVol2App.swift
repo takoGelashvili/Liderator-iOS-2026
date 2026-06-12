@@ -13,7 +13,8 @@ struct SwiftUIVol2App: App {
         WindowGroup {
             //ListDemo()
             //RGBView(rgb: .random)
-            WelcomeScreenView()
+            //WelcomeScreenView(viewModel: WelcomeViewModelImpl())
+            AnimationsDemo()
         }
     }
 }

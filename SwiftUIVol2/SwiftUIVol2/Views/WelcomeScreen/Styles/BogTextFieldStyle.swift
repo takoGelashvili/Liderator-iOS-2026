@@ -9,12 +9,13 @@ import SwiftUI
 
 extension TextFieldStyle where Self == BogTextfieldStyle {
 
-    static var bog: BogTextfieldStyle {
-        BogTextfieldStyle()
-    }
+    static var bog: BogTextfieldStyle { BogTextfieldStyle() }
+    static var bogError: BogTextfieldStyle { BogTextfieldStyle(isError: true) }
 }
 
 struct BogTextfieldStyle: TextFieldStyle {
+    var isError: Bool = false
+
     func _body(configuration: TextField<Self._Label>) -> some View {
         configuration
             .padding(.vertical, 10)
@@ -22,7 +23,7 @@ struct BogTextfieldStyle: TextFieldStyle {
             .overlay {
                 RoundedRectangle(cornerRadius: 10)
                     .stroke()
-                    .foregroundStyle(.orange)
+                    .foregroundStyle(isError ? .red : .orange)
             }
     }
 }
