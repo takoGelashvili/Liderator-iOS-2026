@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C8894FDD-B187-4374-AF19-36F6D9318A49"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A6D0996-784E-416E-A72F-86971CD16723"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../var/folders/yj/jx395cnx0rx43q9v4tc_t2140000gn/T/swift-generated-sources/@__swiftmacro_18SwiftUIPersistance11ContentViewV8students5QueryfMp_.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "0A6D0996-784E-416E-A72F-86971CD16723 - 9fcc3091843069ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUIPersistance.ContentView.init() -&gt; SwiftUIPersistance.ContentView"
+                  moduleName = "SwiftUIPersistance.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///var/folders/yj/jx395cnx0rx43q9v4tc_t2140000gn/T/-181bb5.@__swiftmacro_18SwiftUIPersistance11ContentViewV8students5QueryfMp_.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1"
+                  endingLineNumber = "1">
+               </Location>
+               <Location
+                  uuid = "0A6D0996-784E-416E-A72F-86971CD16723 - 4c3cc7c04ad575f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of SwiftUIPersistance.ContentView.init(_students: _SwiftData_SwiftUI.Query&lt;SwiftUIPersistance.Student, Swift.Array&lt;SwiftUIPersistance.Student&gt;&gt;, _faculties: _SwiftData_SwiftUI.Query&lt;SwiftUIPersistance.Faculty, Swift.Array&lt;SwiftUIPersistance.Faculty&gt;&gt;, context: SwiftUI.Environment&lt;SwiftData.ModelContext&gt;, addNewStudentPresented: Swift.Bool) -&gt; SwiftUIPersistance.ContentView"
+                  moduleName = "SwiftUIPersistance.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///var/folders/yj/jx395cnx0rx43q9v4tc_t2140000gn/T/-181bb5.@__swiftmacro_18SwiftUIPersistance11ContentViewV8students5QueryfMp_.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1"
+                  endingLineNumber = "1">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
